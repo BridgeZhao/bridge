@@ -69,7 +69,7 @@ gulp.task('mini_images', function () {
         }))
         .pipe(gulp.dest('dist/images'));
 });
-
+// 运行
 gulp.task('default', function () {
 
 	gulp.start('mini_images','minify-css','minify-html');
